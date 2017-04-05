@@ -9,7 +9,7 @@
   }
 
   #banner {
-  background: #999 url("/img/watercolor_pic.jpg") no-repeat center top;
+  background: #999 url("img/watercolor_pic.jpg") no-repeat center top;
   background-size: cover;
   padding: 5% 0;
   }
