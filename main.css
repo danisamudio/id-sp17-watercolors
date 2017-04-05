@@ -1,0 +1,121 @@
+.max-width {
+  max-width: 58em; /* 58em + 1em + 1em = 60em */
+  padding: 0 1em;
+  margin: 0 auto;
+  }
+
+.body {
+    background-color: #fff;
+  }
+
+  #banner {
+  background: #999 url("../img/watercolor_pic.jpg") no-repeat center top;
+  background-size: cover;
+  padding: 5% 0;
+  }
+
+  #banner h1 {
+    display: inline-block;
+    font: bold 3em/1.15 Baskerville, sans-serif;
+    color: #939;
+    !background: #6cf;
+    padding: .3em;
+    !border-top: 2px solid #66f;
+    !border-bottom: 2px solid #66f;
+    }
+
+    @media (min-width: 48em) {
+
+  #banner {
+    text-align: center;
+    }
+
+  #banner h1 {
+    font-size: 3.3em;
+    }
+
+  }
+
+  .intro {
+   text-align: left;
+   font-family: Baskerville;
+   font-size: 12px;
+   margin: 1.5em;
+   !background: #fff;
+  }
+
+  nav ol,
+  nav ul {
+  padding-left: 1em;
+  overflow: hidden;
+}
+
+
+   nav li{
+   font-family: Baskerville;
+   font-size: 1em;
+   display: inline-block; center;
+   text-align: center;
+   list-style: none;
+   float: left;
+  margin: 0 1em;
+  }
+
+   nav a{
+   color: #9cf;
+   padding: 3.3em;
+   text-decoration: none;
+  }
+
+  .history {
+  text-align: left;
+  !background: #fff;
+  padding: 1em 1em;
+  border-top: 1px dashed #000;
+  border-bottom: 1px dashed #000;
+  border-width: .1em;
+  margin: em;
+  font-family: Baskerville;
+  }
+
+  #history {
+  }
+
+  .materials {
+  text-align: left;
+  padding: 1em 1em;
+  !border-top: 1px dashed #000;
+  border-bottom: 1px dashed #000;
+  border-width: .1em;
+  margin: em;
+  font-family: Baskerville;
+  }
+
+  .techniques {
+  text-align: left;
+  padding: 1em 1em;
+  !border-top: 1px dashed #000;
+  border-bottom: 1px dahed #000;
+  border-width: .1em;
+  margin: em;
+  font-family: Baskerville;
+  }
+
+  !.intro .p_one {
+  display: inline-block;
+  width: 29%;
+  text-align: left;
+  vertical-align: top;
+  background: #fff;
+  margin-left: 3%;
+  }
+
+  .artists {
+  text-align: left;
+  padding: 1em 1em;
+  border-top: 1px dashed #000;
+  border-bottom: 1px dahed #000;
+  border-width: .1em;
+  margin: em;
+  font-family: Baskerville;
+  }
