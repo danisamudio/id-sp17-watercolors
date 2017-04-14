@@ -200,3 +200,27 @@ background-image: linear-gradient(45deg, #fbc2eb 0%, #a6c1ee 100%);padding: 1% 0
   padding-left: 0;
 
 }
+
+
+}
+
+.jump-link-top {
+  text-align: center;
+  }
+
+.jump-link-top a {
+  display: block;
+  font: 1.1em baskerville;
+  text-decoration: none;
+  padding: 1.2em;
+  }
+
+.jump-link-top .arrow-up {
+  font: bold 1.2em "Baskerville";
+  vertical-align: middle;
+  margin-right: .2em;
+  }
+
+.jump-link-text {
+  text-decoration: none;
+  }
