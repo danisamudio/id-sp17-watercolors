@@ -1,121 +1,196 @@
-.max-width {
+body {
+background-color: #fff;
+margin: auto;
+}
+
+  .max-width {
   max-width: 58em; /* 58em + 1em + 1em = 60em */
   padding: 0 1em;
   margin: 0 auto;
   }
 
-.body {
-    background-color: #fff;
-  }
+/* info (general) / section */
+
+.info {
+  margin-top: 2%;
+  text-align: justify;
+}
+
+.info header {
+  padding: 2% 0;
+}
+
+.info header h2 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* dashed bottom horizontal rule */
+
 
   #banner {
-  background: url("https://every-tuesday.com/wp-content/uploads/2016/05/watercolor-texture-specific-color-preview3.jpg") no-repeat center top;
+  background: #999 url("../img/watercolor_pic.jpg") no-repeat center top;
   background-size: cover;
   padding: 5% 0;
+  text-align: center;
   }
 
   #banner h1 {
-    display: inline-block;
-    font: bold 3em/1.15 Baskerville, sans-serif;
-    color: #939;
-    !background: #6cf;
-    padding: .3em;
-    !border-top: 2px solid #66f;
-    !border-bottom: 2px solid #66f;
-    }
+  display: inline-block;
+  font: bold 3em/1.15 Baskerville, sans-serif;
+  font-size: 3.3em;
+  color: #939;
+  !background: #6cf;
+  padding: .3em;
+  !border-top: 2px solid #66f;
+  !border-bottom: 2px solid #66f;
+  }
 
-    @media (min-width: 48em) {
-
-  #banner {
-    text-align: center;
-    }
-
-  #banner h1 {
-    font-size: 3.3em;
-    }
-
+  .line {
+  border-top: 1px  #000;
+  border-bottom: 1px solid #000;
+  border-width: 1em;
+  border-color: #939;
   }
 
   .intro {
-   text-align: left;
-   font-family: Baskerville;
-   font-size: 12px;
-   margin: 1.5em;
-   !background: #fff;
+  text-align: justify;
+  font-family: Baskerville;
+  font-size: 15px;
+  margin: 1.5em;
+  !background: #fff;
+  }
+
+  nav details {
+  font-family: Baskerville;
+  text-align: center;
+  font-size: 20px;
+  padding: 1em;
+  color: #939;
+
   }
 
   nav ol,
   nav ul {
   padding-left: 1em;
   overflow: hidden;
-}
+  }
 
-
-   nav li{
-   font-family: Baskerville;
-   font-size: 1em;
-   display: inline-block; center;
-   text-align: center;
-   list-style: none;
-   float: left;
+  nav li{
+  font-family: Baskerville;
+  font-size: 1.1em;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  float: center;
   margin: 0 1em;
   }
 
-   nav a{
-   color: #9cf;
-   padding: 3.3em;
-   text-decoration: none;
+  nav a{
+  color: #60c;
+  padding: 2.1em;
+  text-decoration: none;
   }
 
-  .history {
-  text-align: left;
+  !#history {
+  text-align: justify;
   !background: #fff;
-  padding: 1em 1em;
-  border-top: 1px dashed #000;
-  border-bottom: 1px dashed #000;
-  border-width: .1em;
-  margin: em;
+  padding: 5em 1em;
+  margin-top: 2%;
+  border-width: 1em;
+  margin: 0;
   font-family: Baskerville;
   }
 
-  #history {
-  }
+  !.history header h2 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+
+  #history header {
+  background: #909;
+  background-image: linear-gradient(45deg, #909 0%, #fff 100%);
+  padding: 1% 0;
+
+
+}
 
   .materials {
-  text-align: left;
+  text-align: justify;
   padding: 1em 1em;
-  !border-top: 1px dashed #000;
-  border-bottom: 1px dashed #000;
   border-width: .1em;
   margin: em;
   font-family: Baskerville;
   }
+
+
+.materials header h2 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#materials header {
+  background: #909;
+  background-image: linear-gradient(45deg, #909 0%, #fff 100%);
+  padding: 1% 0;}
 
   .techniques {
-  text-align: left;
+  text-align: justify;
   padding: 1em 1em;
-  !border-top: 1px dashed #000;
-  border-bottom: 1px dahed #000;
   border-width: .1em;
   margin: em;
   font-family: Baskerville;
   }
 
-  !.intro .p_one {
-  display: inline-block;
-  width: 29%;
-  text-align: left;
-  vertical-align: top;
-  background: #fff;
-  margin-left: 3%;
-  }
+  .techniques header {
+  padding: 2% 0;
+}
+
+.techniques header h2 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#techniques header {
+  background: #909;
+  background-image: linear-gradient(45deg, #909 0%, #fff 100%);
+  padding: 1% 0;
+}
+
 
   .artists {
-  text-align: left;
+  text-align: justify;
   padding: 1em 1em;
-  border-top: 1px dashed #000;
-  border-bottom: 1px dahed #000;
   border-width: .1em;
   margin: em;
   font-family: Baskerville;
   }
+
+
+  .artists header h2 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+#artists header {
+  background: #909;
+  background-image: linear-gradient(45deg, #909 0%, #fff 100%);
+  padding: 1% 0;
+}
+
+
+  .hero-photo-grid {
+
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+
+}
